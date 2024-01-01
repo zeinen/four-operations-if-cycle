@@ -1,10 +1,10 @@
 integer::x
-print*," bir tam sayý giriniz"
+print*," bir tam sayi giriniz"
 read*,x
 if (x=1) then
     print*,"pazartesi"
 else if(x=2)then
-    print*,"salý"
+    print*,"salÃ½"
 else if(x=3)then
     print*,"carsamba"
 else (x=4)then
@@ -16,6 +16,6 @@ else (x=6)then
 else (x=7)then
     print*,"pazar"
 else
-    print*,"girdiðiniz sayý gecerli degil"
+    print*,"girdiginiz sayi gecerli degil"
 end if
 end program
